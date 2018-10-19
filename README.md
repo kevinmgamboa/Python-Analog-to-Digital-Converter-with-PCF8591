@@ -3,7 +3,16 @@ This tutorial make used of a Raspberry Pi model B and the AD/DA converter PCF859
 
 Please feel free to read first the file DOCUMENT TUTORIAL before starting working with the scripts.
 
-Made an modify by:
+Summary
+
+* Use "log_adc.py" to collect data from the PCF8591 input pins and to writing this data to a LogFile
+* Use "log_graph.py" to use the data recorded into a "data.log" and plot this data.
+* Use "data_adc.py" to work with I2C bus using wiringpi
+* Use "data_local.py" to gather analog data without hardware.
+
+
+
+Modify by:
 
 Kevin Machado Gamboa
 
